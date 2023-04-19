@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4@na$!xft2zsd3q5qp@hid_66eys%06#^x+&r=#c-z_upw*=lr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-3-16-31-110.us-east-2.compute.amazonaws.com:3000', 'ec2-3-16-31-110.us-east-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-3-16-31-110.us-east-2.compute.amazonaws.com:3000', 'ec2-3-16-31-110.us-east-2.compute.amazonaws.com', 'localhost']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
