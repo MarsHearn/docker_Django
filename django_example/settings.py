@@ -28,7 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['ec2-3-16-31-110.us-east-2.compute.amazonaws.com:3000', 
                  'ec2-3-16-31-110.us-east-2.compute.amazonaws.com', 
                  'localhost',
-                 'ec2-18-223-162-191.us-east-2.compute.amazonaws.com',]
+                 'ec2-18-223-162-191.us-east-2.compute.amazonaws.com',
+                 'http://ec2-3-141-97-78.us-east-2.compute.amazonaws.com',
+                 ]
 
 
 # Application definition
